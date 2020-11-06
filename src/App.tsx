@@ -1,25 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Clusterer, Map, Placemark, PlacemarkGeometry, YMaps} from 'react-yandex-maps';
+
+const points: PlacemarkGeometry[] = [
+    [53.931574, 27.623856],
+    [53.731574, 27.523856],
+    [53.801574, 27.723856],
+    [53.831574, 27.793856],
+];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <YMaps>
+        <Map
+            className="map"
+            defaultState={{ center: [53.931574, 27.623856], zoom: 10 }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+            <Clusterer
+                options={{
+                    preset: 'islands#redClusterIcons',
+                    groupByCoordinates: false,
+                }}
+            >
+                {points.map((coordinates, index) => (
+                    <Placemark
+                        modules={["geoObject.addon.balloon"]}
+                        key={index}
+                        geometry={coordinates}
+                        properties={{
+                            balloonContent: 'Текст',
+                        }}
+                        options={{
+                            hideIconOnBalloonOpen: false,
+                            preset: 'islands#redGardenCircleIcon', // islands#COLOR + NAME + CircleIcon
+                        }}
+                    />
+                ))}
+            </Clusterer>
+        </Map>
+      </YMaps>
   );
 }
 
