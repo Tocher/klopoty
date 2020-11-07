@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/klopoty/static/css/main.c8c4cec0.chunk.css",
-    "main.js": "/klopoty/static/js/main.a5007977.chunk.js",
-    "main.js.map": "/klopoty/static/js/main.a5007977.chunk.js.map",
+    "main.css": "/klopoty/static/css/main.7ed8f4f2.chunk.css",
+    "main.js": "/klopoty/static/js/main.4ff1af75.chunk.js",
+    "main.js.map": "/klopoty/static/js/main.4ff1af75.chunk.js.map",
     "runtime-main.js": "/klopoty/static/js/runtime-main.e0b2d176.js",
     "runtime-main.js.map": "/klopoty/static/js/runtime-main.e0b2d176.js.map",
-    "static/js/2.8a9fdc7f.chunk.js": "/klopoty/static/js/2.8a9fdc7f.chunk.js",
-    "static/js/2.8a9fdc7f.chunk.js.map": "/klopoty/static/js/2.8a9fdc7f.chunk.js.map",
+    "static/js/2.1f5c7a98.chunk.js": "/klopoty/static/js/2.1f5c7a98.chunk.js",
+    "static/js/2.1f5c7a98.chunk.js.map": "/klopoty/static/js/2.1f5c7a98.chunk.js.map",
     "static/js/3.fd6463c2.chunk.js": "/klopoty/static/js/3.fd6463c2.chunk.js",
     "static/js/3.fd6463c2.chunk.js.map": "/klopoty/static/js/3.fd6463c2.chunk.js.map",
     "index.html": "/klopoty/index.html",
-    "static/css/main.c8c4cec0.chunk.css.map": "/klopoty/static/css/main.c8c4cec0.chunk.css.map",
-    "static/js/2.8a9fdc7f.chunk.js.LICENSE.txt": "/klopoty/static/js/2.8a9fdc7f.chunk.js.LICENSE.txt"
+    "static/css/main.7ed8f4f2.chunk.css.map": "/klopoty/static/css/main.7ed8f4f2.chunk.css.map",
+    "static/js/2.1f5c7a98.chunk.js.LICENSE.txt": "/klopoty/static/js/2.1f5c7a98.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e0b2d176.js",
-    "static/js/2.8a9fdc7f.chunk.js",
-    "static/css/main.c8c4cec0.chunk.css",
-    "static/js/main.a5007977.chunk.js"
+    "static/js/2.1f5c7a98.chunk.js",
+    "static/css/main.7ed8f4f2.chunk.css",
+    "static/js/main.4ff1af75.chunk.js"
   ]
 }
